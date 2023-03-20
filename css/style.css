@@ -1,0 +1,71 @@
+html, body{
+  height: 100vh;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,11,26,1) 35%, rgba(0,212,255,1) 100%);
+  
+}
+h1{
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 2px;
+
+}
+h2{
+  font-size: 16px;
+  margin-top: 2px;
+}
+.profile{
+  margin-top: 20px;
+  text-align: center;
+}
+.avatar{
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 20px white;
+}
+.social{
+  display: flex;
+  justify-content: space-around;  
+  list-style: none;
+  margin: 20px 0;
+  
+}
+.social img{
+  width: 33px;
+  background-color: #fff;
+  border-radius: 50%;
+  
+}
+.links-list{
+  list-style: none;
+}
+
+.links-list li{
+  margin: 10px 20px;
+}
+.links-list li a{  
+  display: block;  
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px white; 
+  padding: 15px 20px;
+  background-color: #fff;
+  font-weight: bold;
+  color: rgb(18, 139, 226);
+  text-decoration: none; 
+  
+}
+
+
+.links-list li a span{
+  color: rgb(176, 173, 173);
+  font-size: 14px;
+  display: block;
+}
