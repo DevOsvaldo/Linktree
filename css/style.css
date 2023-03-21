@@ -54,11 +54,12 @@ h2{
   display: block;  
   border: 1px solid white;
   border-radius: 10px;
-  box-shadow: 0 0 20px white; 
+  
   padding: 15px 20px;
   background-color: #fff;
   font-weight: bold;
-  color: rgb(18, 139, 226);
+  text-align: center;
+  color: black;
   text-decoration: none; 
   
 }
@@ -68,4 +69,15 @@ h2{
   color: rgb(176, 173, 173);
   font-size: 14px;
   display: block;
+  margin-top: 10px;
+}
+
+.links-list li a.active{
+   box-shadow: 0 0 20px white;
+   color: rgb(18, 139, 226);
+
+}
+.contato{
+  list-style: none;
+  margin-top: 35px;  
 }
